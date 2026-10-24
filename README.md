@@ -7,10 +7,10 @@ Backend system for managing registrations for the **Backend Development Workshop
 ## 🚀 Features
 
 - **Event Registration (`POST /register`):** Accepts student details (`name`, `email`, `department`) and saves registration with a timestamp.
-- **Capacity Constraint:** Enforces a strict maximum capacity limit of 50 participants. Rejects extra registrations with `"Event is full"`[cite: 1].
+- **Capacity Constraint:** Enforces a strict maximum capacity limit of 50 participants. Rejects extra registrations with `"Event is full"`.
 - **Duplicate Prevention:** Rejects duplicate entries with existing email addresses with `"Duplicate registration: Email already registered"`.
-- **View All Registrations (`GET /registrations`):** Retrieves the total count and list of registered participants[cite: 1].
-- **View Single Registration (`GET /registrations/{participant_id}`):** Retrieves specific participant details by unique ID[cite: 1].
+- **View All Registrations (`GET /registrations`):** Retrieves the total count and list of registered participants.
+- **View Single Registration (`GET /registrations/{participant_id}`):** Retrieves specific participant details by unique ID.
 
 ---
 
